@@ -18,9 +18,22 @@ public class window extends JFrame
    JButton boton; 
    JCheckBox verificacion;
    JRadioButton presionar;
-
+   
+    public window()
+    {
+       
+     panel =new JPanel();//Creo un objeto tipo JPanel
+        panel = new JPanel();
+        label = new JLabel();
+        text = new JTextField(20);//20 es la cantidad de caracteres
+        boton = new JButton();
+        verificacion = new JCheckBox();
+        presionar= new JRadioButton();
         
-
-{
+        
+   }
     
-}
+
+    
+        
+    }
